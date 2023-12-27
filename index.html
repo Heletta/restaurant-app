@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=nav, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<!-- Navigation bar -->
+<nav class="nav">
+    <span class="nav-logo">Bob's Burgers</span>
+    <div>
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#menu" class="nav-link">Menu</a>
+        <a href="#contact" class="nav-link"><button class="nav-link-button">Contact</button></a>
+    </div>
+</nav>
+<!-- header -->
+<header id="home">
+    <h1 class="home-title">Bob's Burgers</h1>
+    <p class="home-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque beatae est libero vero
+        corrupti, necessitatibus sapiente inventore obcaecati suscipit officiis?</p>
+    <button class="home-contact">Contact us</button>
+</header>
+<!-- main -->
+<main>
+    <!-- about section -->
+    <section id="about">
+        <img src="assets/about-image.png" alt="" class="about-image">
+        <div class="about-wrapper">
+            <h2 class="about-title">About Us</h2>
+            <p class="about-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe distinctio
+                corporis mollitia officia ducimus placeat neque, sunt sed id quos. Consequatur minima vel pariatur
+                inventore dolorem veritatis fugiat dolor id!</p>
+            <button class="about-button">Learn More</button>
+        </div>
+    </section>
+    <!-- Menu -->
+    <section id="menu">
+        <div class="menu-wrapper">
+            <h2 class="menu-title">Menu</h2>
+            <p class="menu-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti repudiandae
+                error natus id fugit. Aspernatur ullam a hic itaque voluptate deleniti doloribus, illum ea debitis
+                fugiat, dolorem possimus sed. Ea!</p>
+            <button class="menu-button">Learn More</button>
+        </div>
+        <img src="assets/menu-image.png" alt="" class="menu-image">
+    </section>
+    <!-- contact -->
+    <section id="ccontact">
+        <h2 class="contact-title">Contact</h2>
+        <form action="" class="contact-form">
+            <label for="name">Name</label>
+            <input type="text" id="name" class="contact-form-input">
+            <label for="email">Email</label>
+            <input type="email" id="email" class="contact-form-input">
+            <label for="message">Message</label>
+            <textarea id="message" class="contact-form-textarea"></textarea>
+            <button class="contact-form-button">Send</button>
+        </form>
+        <!-- footer
+         -->
+
+    </section>
+    <footer class="footer">
+        <a href="#home" class="footer-link">Home</a>
+        <a href="#about" class="footer-link">About</a>
+        <a href="#menu" class="footer-link">Menu</a>
+        <a href="#contact" class="footer-link">Contact</a>
+    </footer>
+</main>
+</body>
+
+</html>
